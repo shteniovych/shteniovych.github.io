@@ -1,0 +1,189 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.yellow {
+    color: yellow;
+}
+.aliceblue {
+    color: aliceblue;
+}
+
+
+/*First monitor*/
+.header {
+    background: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 60px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+.offer {
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.offer__into {
+    font-size: 10px;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.icons__item {
+    margin-right: 30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+}
+
+.icon__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}
+
+.foto {
+    display: block;
+    margin: 60px auto 0;
+    border-radius: 300px; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    width: 250px;
+}
+
+/*Second monitor*/
+.skill {
+    margin-bottom: 70px;
+}
+.skill__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000;
+}
+
+/*Third monitor*/
+.contacts {
+    background: #000000
+}
+.contact {
+    color: #fff;
+    margin-bottom: 70px;
+}
+.contact__title {
+    color: white;
+}
+.contact__text {
+    color: white;
+}
+.contact__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: white;
+}
+/*Footer*/
+.footer {
+    background: #a4d806;
+    padding: 25px 0 25px;
+}
+
+.credits {
+    color: #000;
+    font-size: 16px;
+    width: 194px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Media requests*/
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .offer {
+        text-align: center;
+    }
+    
+    .offer_text {
+        margin: 20px auto;
+    }
+    
+    .icons {
+        justify-content: center;
+    }
+    .offer__text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu__item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .skill {
+        width: 100%
+    }
+}
